@@ -1,0 +1,16 @@
+
+
+
+
+// here is the latest working command line
+// it runs smoothly on my core2 box with nvidia card
+// make && dvgrab --every 30 --format raw - | ffmpeg -f dv -i - -f rawvideo -vcodec rawvideo -pix_fmt bgr24 -r 15 - | ./plot
+
+
+// this is absolutely aweful coding below, as most of the work was
+// done during a 36-hour marathon session with little sleep
+
+// when running, use the F-keys to control paint type and
+// clear screen, or escape to quit
+
+
